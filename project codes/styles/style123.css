@@ -1,0 +1,350 @@
+header img{
+    width: 120px;
+    height: 120px;
+}
+header {
+    text-align: center;
+}
+body .TableOuter{
+   padding: 30px;
+   margin: 0 auto;
+   background-color: rgb(181, 206, 228);
+   width: 400px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-image: url("../medya/ap1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+body .TableOuter div{
+   margin: 10px;
+}
+
+body .TableOuter button{
+    margin: 10px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 70%;
+    height: 36px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+button.sub1{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 4px gray;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(4, 27, 58);
+}
+button.sub1:hover{
+    background-color: rgb(44, 98, 168);
+}
+button.sub2{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 4px gray;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    width: 100px;
+    height: 33px;
+    background-color: rgb(14, 184, 65);
+}
+button.sub2:hover{
+    background-color: rgb(16, 138, 62);
+}
+
+.ust-bar{
+    position: relative;
+    width: 85%;
+    height: 100px;
+    left: 0;
+    background: rgb(181, 206, 228);
+    margin: 0px;
+}
+
+.ust-bar img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.ust-bar h1{
+    position: absolute;
+    left: 100px;
+    line-height: 50px;
+    color: black;
+}
+.menu h5{
+    position: relative;
+    display: inline;
+    padding: 0 0 0 30px ;
+    line-height: 100px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.menu{
+    position: absolute;
+    width: 800px;
+    background: rgb(181, 206, 228);
+    right: 0;
+}
+.menu h5:hover{
+    color: green;
+}
+a{
+    text-decoration: none;
+}
+.cikis{
+    position: absolute;
+    width: 15%;
+    background-color: rgb(181, 206, 228); /* header arkaplanı*/
+    right: 0;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    top: 0;
+}
+.cikis:hover{
+    background: red;
+}
+
+.adsoyad{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    left: 50px;
+}
+
+.adsoyad h4{
+    position: relative;
+    float: left;
+    color: black;
+    width: max-content;
+}
+.orta_div{
+    position: absolute;
+    width: 45%;
+    height: 500px;
+    background: rgb(226, 226, 226); /* bölme arkaplanı */  
+    top: 150px;
+    opacity: 0.9;
+    border-radius: 16px;
+}
+#randevu_div{
+    left: 50px;
+}
+#hastalar{
+    right: 50px;
+}
+#randevu{
+    right: 50px;
+}
+.orta_div h2{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+
+#randevu_div input, textarea, select,
+button{
+    position: relative;
+    width: 370px;
+    height: 40px;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+#randevu_div button{
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+}
+#randevu_div p{
+    margin: 10px 295px -10px 0;
+    color: gray;
+}
+#randevu_div form{
+    position: relative;
+    text-align: center;
+}
+
+.d_hesabim-content{
+    text-align: right;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: 50px;
+    margin: auto;
+    background: rgb(226, 226, 226);
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.d_hesabim-content .label{
+    position: relative;;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.d_hesabim-content .label label{
+    position: relative;
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.d_hesabim-content .label input{
+    float: right;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    line-height: 40px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    color: rgb(78, 78, 78);
+}
+
+.d_hesabim-content button{
+    position: relative;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    background: seagreen;
+    color: white;
+    margin-top: 20px;
+    margin-right: 175px;
+}
+
+.d_hesabim-content button:hover{
+    background-color: rgb(62, 190, 117);
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    overflow-block: hidden;
+}
+tr,td,th{
+    border: 3px solid gray;
+    text-align: center;
+    padding: 4px;
+}
+td{
+    background:white;
+    max-width: 300px;
+}
+tr{
+    background: rgb(136, 231, 133);
+}
+td.i{
+    overflow-x:scroll;
+}
+#randevu2 h1{
+    text-align: center;
+}
+#randevu2 h4{
+    text-align: center;
+    margin: auto;
+}
+.randevu-tablo2{
+    width: 75%;
+}
+button.olustur{
+    margin-left: 580px;
+    background-color: seagreen;
+    color: white;
+}
+button.ekle{
+    margin-left: 180px;
+    margin-top: 36px;
+    background-color: seagreen;
+    color: white;
+}
+
+.buttonsil{
+    margin-left: 580px;
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    width: 370px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#scroll{
+    height:450px;
+
+    overflow:auto;  
+    margin-top:20px;
+}
+#randevu_div button.olustur{
+    margin: 40px 50px 50px 25%;
+}
+
+.d_hesabim-content h4{
+    text-align: center;
+}
+
+.d_hesabim-content button.sil-button{
+    position: relative;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    margin-right: 175px;
+}
+.d_hesabim-content button.sil-button:hover{
+    background-color:rgb(90, 6, 6);
+}
+.dsecim{
+    margin-left: 30px;
+    font-size: 20px;
+    color: red;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 4px;
+}
+.doktor_option{
+    margin-left: 450px;
+    width: 250px;
+}
+.talep{
+    background: seagreen;
+    color: white;
+}
